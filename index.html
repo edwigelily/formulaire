@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire d'inscription</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form method="get" action="">
+	<p>
+		<strong> Renseignement</strong>
+		<fieldset>
+			<legend>Civilité</legend>
+	
+			<label for="identite">Nom et Prénom:</label>
+			<input type="text" name="identite" id="identite" placeholder="BAMENOU Edwige" autofocus="autofocus" required="required"/><sup>*</sup><br/><br/>
+			
+			<label for="adresse">Email:</label>
+			<input type="email" name="adresse" placeholder="abcd@gmail.com" required="required" id="adresse"/><br/><br/>
+			
+			<label for="tel">Téléphone:</label>
+			<input type="tel" name="tel" required="required" id="tel"/><br/><br/>
+			
+			<label for="password">Mot de passe</label>
+			<input type="password" name="password" required="required" id="password"/><br/><br/>
+			
+			<label for="date">Date de naissance</label>
+			<input type="date" name="date" required="required" id="date"/><br/><br/>
+			
+			<input type="radio" name="sexe" value="homme" id="homme"/><label for="homme">Homme</label>
+			<input type="radio" name="sexe" value="femme" id="femme" /><label for="femme">Femme</label>		
+
+		</fieldset>
+
+        <fieldset>
+        	<legend>Formation</legend>
+
+        	<label for="diplome">Quel est votre dernier diplome obtenu ? </label>
+        	<select name="diplome">
+        		<option value="aucun">Aucun</option>
+        		<option value="cep">CEP</option>
+        		<option value="bepc">BEPC</option>
+        		<option value="bac">BAC</option>
+        		<option value="bac_2">BAC +2</option>
+        		<option value="bac_3" selected="selected">BAC +3</option>
+        		<option value="ingenieur">Ingénieur</option>
+        		<option value="Master">Master</option>
+        		<option value="doctorat">Doctorat</option>
+        	</select>
+        	<p>
+
+        		<strong>Centre d'intéret</strong><br/>
+        		<input type="checkbox" name="choix[]" id="musique"/><label for="musique">Musique</label>
+        		<input type="checkbox" name="choix[]" id="cinema"/><label for="cinema">Cinéma</label>
+        		<input type="checkbox" name="choix[]" id="sport" /><label for=">sport">Sport</label>
+        		<input type="checkbox" name="choix[]" id="musique" /><label for="musique">Lecture</label><br/><br/>
+
+        		<strong>Couleur préférée</strong><br/>
+        		<label for="couleur">Quelle est votre couleur préférée? </label><input type="color" name="couleur">
+        	</p>
+
+        </fieldset>
+    	<p>
+            <label for="commentaire">Décrivez-vous en quelques lignes</label><br/>
+    		<textarea name="commentaire" placeholder="saisissez un commentaire" rows="5" cols="60"></textarea><br/><br/>
+    		<input type="checkbox" name="accepte" required="required"/><label for="accepte">J'accept les conditions générales d'utilisation.</label>
+    	</p>
+    	<input type="submit" value="Envoyer" name="envoyer">
+	</p>
+</form>
+</body>
+</html>
