@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body{
+    background-image: url(assets/img/grayscale-photography-of-trees-1529881.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+form{
+    width: 80%;
+    height: auto;
+    margin: 10%;
+    padding: 10px;
+    background-color: beige;
+    
+}
+legend{
+ font-size: 2em;
+ font-family: 'Lobster', cursive;
+ 
+}
+strong{
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+ 
+}
+label{
+    font-size: 1.5em;
+}
+[value=Envoyer]{
+    color: red;
+}

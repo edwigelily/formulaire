@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>Formulaire d'inscription</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="assets/img/icons8-colombe-100.png">
 	<meta charset="utf-8">
 </head>
 <body>
+<main>
 <form method="get" action="">
 	<p>
 		<strong> Renseignement</strong>
@@ -60,12 +63,13 @@
 
         </fieldset>
     	<p>
-            <label for="commentaire">Décrivez-vous en quelques lignes</label><br/>
+            <label for="commentaire"> <strong> Décrivez-vous en quelques lignes</strong></label><br/>
     		<textarea name="commentaire" placeholder="saisissez un commentaire" rows="5" cols="60"></textarea><br/><br/>
     		<input type="checkbox" name="accepte" required="required"/><label for="accepte">J'accept les conditions générales d'utilisation.</label>
     	</p>
     	<input type="submit" value="Envoyer" name="envoyer">
 	</p>
 </form>
+</main>
 </body>
 </html>
