@@ -5,14 +5,16 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 form{
-    width: 80%;
+    width: 50vw;
     height: auto;
-    margin: 10%;
-    padding: 10px;
-    background-color: beige;
-    box-shadow: 5px 5px 5px teal inset;
+    padding: 1%;
+    opacity: O.5;
+    border: 2px solid rgb(167, 165, 165);
+    box-shadow: 5px 5px 10px #E9967A;
     
 }
 legend{
@@ -28,14 +30,22 @@ strong{
 }
 label{
     font-size: 1.5em;
+    color: rgb(245, 182, 203);
 }
 [value=Envoyer]{
     color: red;
 }
 a{
     text-decoration: none;
-    color: black;   
+    color: #FAF0E6;   
 }
 a:hover{
     font-weight: bold;
+    color: #F08080;
+    transition: 1s;
+}
+span{
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+    color: #000;
 }
